@@ -60,6 +60,16 @@ header .status-list {
     bottom: -80px;
 }
 
-header .status-list .statu {
-    background-color: aquamarine;
+header .status-list .statu h2 {
+    font-size: 13px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 600;
+}
+
+header .status-list .statu p {
+    color: hsl(0, 0%, 17%);
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 13px;
+    /* background-color: aquamarine; */
 }
