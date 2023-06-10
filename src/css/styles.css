@@ -15,7 +15,6 @@ header .title {
 }
 
 header .search-section {
-    background-color: blueviolet;
     margin-top: 28px;
     width: 34.68rem;
     position: relative;
@@ -24,7 +23,6 @@ header .search-section {
 }
 
 header .search-section .search-ip {
-    /* background-color: red; */
     border: none;
     font-size: 18px;
     width: 100%;
@@ -54,8 +52,6 @@ header .status-list {
     justify-content: space-around;
     align-items: center;
     border-radius: 15px;
-    /* gap: 30px; */
-    /* padding: 40px 30px; */
     position: absolute;
     bottom: -80px;
 }
@@ -71,5 +67,4 @@ header .status-list .statu p {
     font-size: 26px;
     font-weight: 500;
     margin-top: 13px;
-    /* background-color: aquamarine; */
 }
