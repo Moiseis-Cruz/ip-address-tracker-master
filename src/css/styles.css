@@ -3,16 +3,21 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 10rem;
+    position: relative;
+    height: 280px;
 }
 
 header .title {
     color: #ffffff;
-    font-size: 28px;
+    font-size: 19,375rem;
+    margin-top: 30px;
 }
 
 header .search-section {
     background-color: blueviolet;
-    width: 520px;
+    margin-top: 28px;
+    width: 34.68rem;
     position: relative;
     border-radius: 15px;
     overflow: hidden;
@@ -30,9 +35,31 @@ header .search-section .btn-search {
     position: absolute;
     top: 0;
     right: 0;
-    width: 50px;
+    width: 58px;
     height: 100%;
     background-color: hsl(0, 0%, 17%);
     border: none;
     cursor: pointer;
+}
+
+header .search-section .btn-search:active {
+    background-color: hsl(0, 0%, 59%);
+}
+
+header .status-list {
+    background-color: #ffffff;
+    display: flex;
+    width: 1110px;
+    min-height: 160px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    /* gap: 30px; */
+    /* padding: 40px 30px; */
+    position: absolute;
+    bottom: -80px;
+}
+
+header .status-list .statu {
+    background-color: aquamarine;
 }
