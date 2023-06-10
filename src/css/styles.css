@@ -1,0 +1,38 @@
+header {
+    background: url(../img/pattern-bg-desktop.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .title {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+header .search-section {
+    background-color: blueviolet;
+    width: 520px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+header .search-section .search-ip {
+    /* background-color: red; */
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    padding: 15px 30px;
+}
+
+header .search-section .btn-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background-color: hsl(0, 0%, 17%);
+    border: none;
+    cursor: pointer;
+}
