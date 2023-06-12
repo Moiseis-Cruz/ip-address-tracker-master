@@ -4,7 +4,7 @@ async function rastreadorDeEndereco() {
     console.log(teste);
 }
 
-rastreadorDeEndereco()
+console.log(await rastreadorDeEndereco())
 
 // IP ADDRESS
 // LOCATION
