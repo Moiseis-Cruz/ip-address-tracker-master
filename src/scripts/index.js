@@ -5,3 +5,8 @@ async function rastreadorDeEndereco() {
 }
 
 rastreadorDeEndereco()
+
+// IP ADDRESS
+// LOCATION
+// TIMEZONE
+// ISP
