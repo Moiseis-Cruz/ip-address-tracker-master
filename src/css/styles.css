@@ -1,3 +1,11 @@
+body {
+    max-width: 1440px;
+    min-height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    background-color: brown;
+}
+
 header {
     background: url(../img/pattern-bg-desktop.png);
     display: flex;
@@ -67,4 +75,8 @@ header .status-list .statu p {
     font-size: 26px;
     font-weight: 500;
     margin-top: 13px;
+}
+
+main {
+    background-color: red;
 }
