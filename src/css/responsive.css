@@ -1,0 +1,31 @@
+@media (max-width: 375px) {
+    header {
+        background: url(../img/pattern-bg-mobile.png);
+        padding: 0 24px;
+        height: 300px;
+    }
+
+    header .title {
+        font-size: 25px;
+        margin-top: 26px;
+    }
+
+    header .search-section {
+        margin-top: 28px;
+        width: 100%;
+        position: relative;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    header .status-list {
+        flex-direction: column;
+        width: 327px;
+        min-height: 160px;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 15px;
+        position: absolute;
+        bottom: -161px;
+    }
+}
