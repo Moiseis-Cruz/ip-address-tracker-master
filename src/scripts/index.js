@@ -1,5 +1,6 @@
 document.querySelector(".btn-search").addEventListener("click", () => {
-    
+    const searchIp = document.querySelector(".search-ip").value
+    console.log(addressTracker(searchIp))
 })
 
 const addressResult = document.getElementById("address-result")
@@ -8,17 +9,23 @@ const timezoneResult = document.getElementById("timezone-result")
 const ipsResult = document.getElementById("ips-result")
 
 
-async function addressTracker() {
-    const response = await fetch("https://geo.ipify.org/api/v2/country,city?apiKey=at_Ebs0EI2Bfqs4cvI1Yf7yyDhrlHpkH&ipAddress=8.8.8.8")
+async function addressTracker(teste) {
+    const response = await fetch(`https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_Ebs0EI2Bfqs4cvI1Yf7yyDhrlHpkH&ipAddress=${teste}`)
     const action = await response.json()
     
     const ip = action.ip
     const timezone = action.location.timezone
-    const ips = action.ips
+    const ips = action.isp
     const location = action.location
+    console.log(action);
+
+    addressResult.innerHTML = `${ip}`
+    locationResult.innerHTML = `${location.city}, ${location.region}`
+    timezoneResult.innerHTML = `${timezone}`
+    ipsResult.innerHTML = `${ips}`
 }
 
-addressTracker()
+// addressTracker()
 
 // async function getAddress() {
     //     console.log(await addressTracker());
@@ -29,3 +36,5 @@ addressTracker()
     
 
     // console.log(location.city, location.region);
+// }
+// 194.212.174.101
