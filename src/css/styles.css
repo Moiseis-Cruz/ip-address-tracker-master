@@ -81,4 +81,5 @@ header .status-list .statu p {
 
 main {
     background-color: red;
+    height: calc(100vh - 280px);
 }
