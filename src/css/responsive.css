@@ -1,6 +1,7 @@
-@media (max-width: 375px) {
+@media (max-width: 768px) {
     header {
         background: url(../img/pattern-bg-mobile.png);
+        background-size: cover;
         padding: 0 24px;
         height: 300px;
     }
@@ -21,11 +22,18 @@
     header .status-list {
         flex-direction: column;
         width: 327px;
-        min-height: 160px;
-        justify-content: space-around;
-        align-items: center;
-        border-radius: 15px;
-        position: absolute;
+        height: 295px;
+        justify-content: center;
         bottom: -161px;
+        gap: 24px;
+    }
+    
+    header .status-list .statu h2 {
+        font-size: 10px;
+    }
+    
+    header .status-list .statu p {
+        font-size: 20px;
+        margin-top: 7px;
     }
 }
