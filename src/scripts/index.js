@@ -1,10 +1,21 @@
-async function rastreadorDeEndereco() {
-    const response = await fetch("https://geo.ipify.org/api/v2/country?apiKey=at_Ebs0EI2Bfqs4cvI1Yf7yyDhrlHpkH&ipAddress=8.8.8.8")
-    const teste = await response.json()
-    console.log(teste);
+async function addressTracker() {
+    const response = await fetch("https://geo.ipify.org/api/v2/country,city?apiKey=at_Ebs0EI2Bfqs4cvI1Yf7yyDhrlHpkH&ipAddress=8.8.8.8")
+    const action = await response.json()
+    
+    const ip = action.ip
+    const location = action.location
+    const ips = action.ips
+    console.log(action);
 }
 
-console.log(await rastreadorDeEndereco())
+addressTracker()
+
+// async function getAddress() {
+//     console.log(await addressTracker());
+//     console.log(domains);
+// }
+
+// getAddress()
 
 // IP ADDRESS
 // LOCATION
