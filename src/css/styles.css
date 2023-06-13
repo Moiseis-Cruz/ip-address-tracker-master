@@ -3,7 +3,7 @@ body {
     min-height: 100vh;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 header {
@@ -24,7 +24,8 @@ header .title {
 
 header .search-section {
     margin-top: 28px;
-    width: 34.68rem;
+    width: 100%;
+    max-width: 34.68rem;
     position: relative;
     border-radius: 15px;
     overflow: hidden;
@@ -55,7 +56,8 @@ header .search-section .btn-search:active {
 header .status-list {
     background-color: #ffffff;
     display: flex;
-    width: 1110px;
+    width: 100%;
+    max-width: 69.375rem;
     min-height: 160px;
     justify-content: space-around;
     align-items: center;
