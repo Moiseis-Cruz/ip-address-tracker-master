@@ -13,6 +13,10 @@ body {
     background-color: cadetblue;
 }
 
+input {
+    border: none;
+}
+
 ul {
     list-style: none;
 }
