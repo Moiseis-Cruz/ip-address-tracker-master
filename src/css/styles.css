@@ -6,17 +6,20 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    position: relative;
 }
 
 .title {
     color: #ffffff;
     font-size: 31px;
     font-weight: 700;
+    margin-top: 30px;
 }
 
 .search-ip {
     background-color: darkgray;
-    width: 555px;
+    width: 100%;
+    max-width: 555px;
     height: 58px;
     position: relative;
     overflow: hidden;
@@ -35,4 +38,20 @@ button {
     top: 0;
     right: 0;
     border: none;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+#address-data {
+    background-color: limegreen;
+    width: 100%;
+    max-width: 1110px;
+    min-height: 160px;
+    position: absolute;
+    bottom: -80px;
+    border-radius: 15px;
 }
