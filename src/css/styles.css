@@ -1,5 +1,5 @@
 .search-field {
-    background-color: blueviolet;
+    background: blueviolet url(../img/pattern-bg-desktop.png);
     width: 100%;
     min-height: 280px;
     display: flex;
@@ -24,6 +24,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 15px;
+    margin-top: 28px;
 }
 
 #address-ip {
@@ -47,11 +48,12 @@ button:active {
 }
 
 #address-data {
-    background-color: limegreen;
+    background-color: #ffffff;
     width: 100%;
     max-width: 1110px;
     min-height: 160px;
     position: absolute;
     bottom: -80px;
     border-radius: 15px;
+    display: flex;
 }
