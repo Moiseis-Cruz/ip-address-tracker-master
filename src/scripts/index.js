@@ -7,7 +7,7 @@ btnSearch.addEventListener("click", () => {
 })
 
 async function address () {
-    const url = "https://geo.ipify.org/api/v2/country?apiKey=at_Ebs0EI2Bfqs4cvI1Yf7yyDhrlHpkH&ipAddress=194.212.172.101"
+    const url = "https://geo.ipify.org/api/v2/country?apiKey=at_YSagpUZeFIfzmxxZsSWEVJ6SLNR2o&ipAddress=8.8.8.8"
     const response = await fetch(url)
     return await response.json()
 }
