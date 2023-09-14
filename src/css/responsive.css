@@ -20,7 +20,20 @@
         max-width: 327px;
         height: 295px;
         bottom: -161px;
-        /* padding: 30px 0; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 27px 70px;
         /* gap: 20px; */
+    }
+
+    #address-data li {
+        flex: 0;
+        width: 100%;
+        /* background-color: red; */
+        /* margin-left: 10px; */
+        padding-left: 0;
+        /* text-align: left; */
+        border-left: none;
     }
 }
