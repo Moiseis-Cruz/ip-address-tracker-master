@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
     .search-field {
-        background: blueviolet url(../img/pattern-bg-mobile.png) center center no-repeat;
+        background: url(../img/pattern-bg-mobile.png) center center no-repeat;
         background-size: cover;
         min-height: 300px;
     }

@@ -1,5 +1,6 @@
 .search-field {
-    background: blueviolet url(../img/pattern-bg-desktop.png);
+    background: url(../img/pattern-bg-desktop.png);
+    background-size: cover;
     width: 100%;
     min-height: 280px;
     display: flex;
