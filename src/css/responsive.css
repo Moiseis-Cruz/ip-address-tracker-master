@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .search-field {
+        background: blueviolet url(../img/pattern-bg-mobile.png) center center no-repeat;
+        background-size: cover;
+        min-height: 300px;
+    }
+    
+    .title {
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 26px;
+    }
+
+    .search-ip {
+        max-width: 327px;
+        margin-top: 23px;
+    }
+
+    #address-data {
+        max-width: 327px;
+        height: 295px;
+        bottom: -161px;
+        /* padding: 30px 0; */
+        /* gap: 20px; */
+    }
+}
